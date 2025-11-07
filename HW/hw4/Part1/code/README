@@ -1,0 +1,13 @@
+To run the following programs, run
+
+make clean
+
+make
+
+./Linal.exe
+
+
+This text is also saved in output.txt for your viewing pleasure.
+
+
+Linal.exe is comprised of subroutines in Linal.f90 which are called in the driver Driver_LinAl.f90 

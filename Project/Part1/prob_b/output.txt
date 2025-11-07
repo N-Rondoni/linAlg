@@ -1,0 +1,33 @@
+ Required outputs for b.1:  
+  
+ Jacobi outputs: iterations, error for D = 2, 5, 10, 100, 1000
+ Jacobi doesn't converge for D=2.
+ Jacobi doesn't converge for D=5.
+         176   1.0068949681912498E-007
+           9   4.8083173883738591E-008
+           5   2.7226616501418616E-008
+ Seidel outputs: iterations, error for D = 2, 5, 10, 100
+          77   9.9841066280319917E-008
+          22   7.8082879849670617E-008
+          13   2.5021955354928953E-008
+           6   1.3051182175340635E-008
+           4   1.0718129038198675E-008
+ A(i,i) modified to have i on main diagonal, 1 else:
+ Jacobi doesn't converge in this case 
+ Seidel however, converges: 
+          28   6.2767657769905909E-008
+ _______________________________________ 
+  
+ Problem b.2 outputs:  
+ Conjugate Gradient method: iterations, error for D = 2, 5, 10, 100, 1000
+           2   4.6997984367617653E-015
+           2   4.5829490070815146E-015
+           2   6.6613381477509392E-016
+           2   2.0106994154417229E-015
+           2   2.8780270159990897E-015
+ A(i,i) modified to have i on main diagonal, 1 else:
+ if A is a 10x10 matrix, we have iteration, error 
+          10   2.0829467997289365E-011
+ A(i,i) still modified to have i on main diagonal, 1 else: 
+ Now A is a 100x100 matrix, yielding iteration, error 
+          67   9.8354488727311450E-008
